@@ -18,7 +18,6 @@ public class CreateUserServletTest {
 
         HttpServletRequest request = mock(HttpServletRequest.class);
         HttpSession session = mock(HttpSession.class);
-        session.setAttribute("games", null);
         HttpServletResponse response = mock(HttpServletResponse.class);
         ServletContext servletContext = mock(ServletContext.class);
         RequestDispatcher dispatcher = mock(RequestDispatcher.class);
